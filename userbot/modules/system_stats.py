@@ -132,14 +132,23 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """For .alive command, check if the bot is running."""
     logo = ALIVE_LOGO
+    uptime = await get_readable_time((time.time() - StartTime))
     output = (
         f"`Nightcore` is running on `{repo.active_branch.name}`\n"
         
-        f"👤 `User           :` {DEFAULTUSER}\n"
-
-        f"🐍 `Python         :` v{python_version()}\n"
-
-        f"⚙️ `Telethon       :` v{version.__version__}\n"
+       f" **[ NightCore ]** \n"
+        f" __User__ \n"
+        f": `{DEFAULTUSER}` \n"
+        f" __Telethon__ \n"
+        f": `Versi {version.__version__}` \n"
+        f" __Python__ \n"
+        f": `Versi {python_version()}` \n"
+        f" __Versi Bot__ \n"
+        f": `{BOT_VER}` \n"
+        f" __Uptime__ \n"
+        f": `{uptime}` \n"
+        f" __Modul__ \n"
+        f": `{len(modules)}` \n")
         
     )
     if ALIVE_LOGO:
