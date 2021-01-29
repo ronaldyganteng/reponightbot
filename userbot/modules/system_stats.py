@@ -4,6 +4,7 @@
 # you may not use this file except in compliance with the License.
 #
 """ Userbot module for getting information about the server. """
+
 import time
 
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -16,7 +17,7 @@ from git import Repo
 from telethon import version
 from telethon.errors.rpcerrorlist import MediaEmptyError
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, CMD_HELP, bot, StarTime
+from userbot import ALIVE_LOGO, ALIVE_NAME, CMD_HELP, bot, StartTime
 from userbot.events import register
 
 # ================= CONSTANT =================
