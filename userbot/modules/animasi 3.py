@@ -1,4 +1,3 @@
- all plugins are imported from bothub,x-tra-telegram by @heyworld
 # Don't edit or you gay
 # credits: spechide,ravana69,mkaraniya & me
 from telethon import events
