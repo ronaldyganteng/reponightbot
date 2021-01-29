@@ -134,15 +134,11 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"`NightCore` is running on `{repo.active_branch.name}`\n"
-         "`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊶⊷⊶⊶⊶⊶⊶⊶⊶⊶⊶⊶`\n"
-               f"•  ⚙️ `Telethon       : v{version.__version__} `\n"
-             
-
-               f"•  🐍 `Python         : v{python_version()} `\n"
-            
-               
-               f"•  👤 `User           :`  {DEFAULTUSER} \n"
-          "`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊶⊷⊶⊶⊶⊶⊶⊶⊶⊶⊶⊶`\n"
+       "`====================================`\n"
+        f"🐍 `Python         :` v{python_version()}\n"
+        f"⚙️ `Telethon       :` v{version.__version__}\n"
+        f"👤 `User           :` {DEFAULTUSER}\n"
+        "`====================================`\n"
     )
     if ALIVE_LOGO:
         try:
