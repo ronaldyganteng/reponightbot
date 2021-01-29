@@ -2976,7 +2976,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "lordmemes":
+    "animasi3":
     "`.eye`\
 \nUsage: Lihat Sendiri.\
 \n\n`.earth`\
