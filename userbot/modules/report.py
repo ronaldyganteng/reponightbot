@@ -24,7 +24,7 @@ async def var(m):
 
 
 CMD_HELP.update({
-    "nightcore helper":
+    "report":
     "`.report`\
 \nUsage: Bantuan Untuk NightCore Userbot.\
 \n`.lordvar`\
