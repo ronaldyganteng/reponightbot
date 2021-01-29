@@ -1,13 +1,15 @@
 # WeebProject Userbot
 
 <p align="center">
-    <a href="https://app.codacy.com/gh/BianSepang/WeebProject/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
-    <a href="https://github.com/BianSepang/WeebProject/stargazers"> <img src="https://img.shields.io/github/stars/BianSepang/WeebProject?logo=github&style=flat-square" alt="Stars" /></a>
-    <a href="https://github.com/BianSepang/WeebProject/network/members"> <img src="https://img.shields.io/github/forks/BianSepang/WeebProject?logo=github&style=flat-square" alt="Forks" /></a>
-    <a href="https://github.com/BianSepang/WeebProject/watchers"> <img src="https://img.shields.io/github/watchers/BianSepang/WeebProject?logo=github&style=flat-square" alt="Watch" /></a><br>
-    <a href="https://github.com/BianSepang/WeebProject/graphs/contributors"> <img src="https://img.shields.io/github/contributors/BianSepang/WeebProject?color=blue&style=flat-square" alt="Contributors" /></a>
+    <a href="https://app.codacy.com/gh/IrhamFadzillah/NightCore/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
+    <a href="https://github.com/IrhamFadzillah/NightCore/stargazers"> <img src="https://img.shields.io/github/stars/IrhamFadzillah/NightCore?logo=github&style=flat-square" alt="Stars" /></a>
+    <a href="https://github.com/NightCore/NightCore/network/members"> <img src="https://img.shields.io/github/forks/IrhamFadzillah/NightCore?logo=github&style=flat-square" alt="Forks" /></a>
+    <a href="https://github.com/IrhamFadzillah/NightCore/watchers"> <img src="https://img.shields.io/github/watchers/IrhamFadzillah/NightCore?logo=github&style=flat-square" alt="Watch" /></a><br>
+    <a href="https://github.com/IrhamFadzillah/NightCore/graphs/contributors"> <img src="https://img.shields.io/github/contributors/IrhamFadzillah/NightCore?color=blue&style=flat-square" alt="Contributors" /></a>
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=flat-square" /></a>
 </p>
+
+![logo] (https://telegra.ph/file/dd23c83f3af19953c5a89.jpg)
 
 ```
 #include <std/disclaimer.h>
