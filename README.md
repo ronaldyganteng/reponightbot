@@ -1,4 +1,4 @@
-# WeebProject Userbot
+# NightCore Userbot
 
 <p align="center">
     <a href="https://app.codacy.com/gh/IrhamFadzillah/NightCore/dashboard"> <img src="https://img.shields.io/codacy/grade/a723cb464d5a4d25be3152b5d71de82d?color=blue&logo=codacy&style=flat-square" alt="Codacy" /></a><br>
@@ -9,7 +9,7 @@
     <a href="https://pypi.org/project/Telethon/"> <img src="https://img.shields.io/pypi/v/telethon?label=telethon&logo=pypi&logoColor=white&style=flat-square" /></a>
 </p>
 
-![logo](https://telegra.ph/file/dd23c83f3af19953c5a89.jpg)
+![logo](https://telegra.ph/file/7c29c42084e4bca205bc8.jpg)
 
 ```
 #include <std/disclaimer.h>
