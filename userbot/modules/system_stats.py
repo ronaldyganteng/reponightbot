@@ -150,7 +150,7 @@ async def amireallyalive(alive):
         f" __Modul__ \n"
         f": `{len(modules)}` \n")
         
-    )
+        
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
