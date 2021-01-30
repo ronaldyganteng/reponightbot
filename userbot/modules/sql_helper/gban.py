@@ -5,7 +5,7 @@ Available Commands:
 .ungban REASON"""
 import asyncio
 from userbot.events import register
-from userbot import CMD_HELP, bot, G_BAN_LOGGER_GROUP, ALIVE_NAME
+from userbot import CMD_HELP, bot, BOTLOG, ALIVE_NAME
 # imported from uniborg by @heyworld
 
 # ================= CONSTANT =================
@@ -15,8 +15,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 @register(outgoing=True, pattern="^.gban(?: |$)(.*)")
 async def _(event):
-    if G_BAN_LOGGER_GROUP is None:
-        await event.edit("Set G_BAN_LOGGER_GROUP in vars otherwise module won't work.")
+    if BOTLOG is None:
+        await event.edit("Set BOTLOG in vars otherwise module won't work.")
         return
     if event.fwd_from:
         return
@@ -28,7 +28,7 @@ async def _(event):
         else:
             r_from_id = r.from_id
         await bot.send_message(
-            G_BAN_LOGGER_GROUP,
+            BOTLOG,
             "/gban [user](tg://user?id={}) {}".format(r_from_id, reason)
         )
     await event.delete()
@@ -41,8 +41,8 @@ async def _(event):
 
 @register(outgoing=True, pattern="^.ungban(?: |$)(.*)")
 async def _(event):
-    if G_BAN_LOGGER_GROUP is None:
-        await event.edit("Set G_BAN_LOGGER_GROUP in vars otherwise module won't work.")
+    if BOTLOG is None:
+        await event.edit("Set BOTLOG in vars otherwise module won't work.")
         return
     if event.fwd_from:
         return
@@ -51,7 +51,7 @@ async def _(event):
         r = await event.get_reply_message()
         r_from_id = r.from_id
         await bot.send_message(
-            G_BAN_LOGGER_GROUP,
+            BOTLOG,
             "/ungban [user](tg://user?id={}) {}".format(r_from_id, reason)
         )
     await event.delete()
