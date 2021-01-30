@@ -1824,5 +1824,4 @@ CMD_HELP.update({
     r"\ n> .fag; .gtfo; .stfu; .lol; .lool; .fail; .leave"
     r"\ n> .iwi; .sayhi; .koc; .gas; .earth; .love; .rain"
     r"\ n> .penis; .emo; .fuck; .ok; .skull ; .monyet"
-    "\n\n\n**Semoga Harimu Menyenangkan**\n`-Alvin`"
 })
