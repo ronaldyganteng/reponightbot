@@ -60,12 +60,3 @@ async def _(event):
     await event.edit(f"**User ungbanned by {DEFAULTUSER}**")
     asyncio.sleep(5)
     await event.delete()
-
-
-CMD_HELP.update({
-    "gban": "\
-`.gban reason`\
-\nUsage: Globally Ban users from all the Group Administrations bots where you are SUDO.\
-\n\n`.ungban reason`\
-\nUsage: Globally unBan users from all the Group Administrations bots where you are SUDO"
-})
