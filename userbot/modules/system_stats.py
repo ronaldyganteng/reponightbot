@@ -24,6 +24,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 repo = Repo()
 # ============================================
 
+
 @register(outgoing=True, pattern=r"^\.sysd$")
 async def sysdetails(sysd):
     """ For .sysd command, get system info using neofetch. """
@@ -134,7 +135,7 @@ async def amireallyalive(alive):
     logo = ALIVE_LOGO
     output = (
         f"`NightCore` is running on `{repo.active_branch.name}`\n"
-       "`====================================`\n"
+        "`====================================`\n"
         f"🐍 `Python         :` v{python_version()}\n"
         f"⚙️ `Telethon       :` v{version.__version__}\n"
         f"👤 `User           :` {DEFAULTUSER}\n"
@@ -188,4 +189,3 @@ CMD_HELP.update(
         "\nUsage: Resets the user to default.",
     }
 )
-

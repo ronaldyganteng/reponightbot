@@ -175,14 +175,15 @@ async def dyno_usage(dyno):
 
             await dyno.edit(
                 "**Dyno Usage**:\n\n"
-                       f" -> `Dyno usage for`  **{HEROKU_APP_NAME}**:\n"
-                       f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
-                       f"**|**  [`{AppPercentage}`**%**]"
-                       "\n"
-                       " -> `Dyno hours quota remaining this month`:\n"
-                       f"     •  `{hours}`**h**  `{minutes}`**m**  "
-                       f"**|**  [`{percentage}`**%**]")
-            
+                f" -> `Dyno usage for`  **{HEROKU_APP_NAME}**:\n"
+                f"     •  `{AppHours}`**h**  `{AppMinutes}`**m**  "
+                f"**|**  [`{AppPercentage}`**%**]"
+                "\n"
+                " -> `Dyno hours quota remaining this month`:\n"
+                f"     •  `{hours}`**h**  `{minutes}`**m**  "
+                f"**|**  [`{percentage}`**%**]"
+            )
+
             return True
 
 
