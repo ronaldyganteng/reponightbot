@@ -165,9 +165,9 @@ async def amireallyalive(alive):
     output = (
         f"`NightCore` is running on `{repo.active_branch.name}`\n"
         "`====================================`\n"
-        f"🐍 `Python         :` v{python_version()}\n"
-        f"⚙️ `Telethon       :` v{version.__version__}\n"
-        f"👤 `User           :` {DEFAULTUSER}\n"
+        f"👤 User             : {DEFAULTUSER}\n\n"
+        f"🐍 Python           : {python_version()}\n\n"
+        f"💻 Telethon version : {version.__version__}\n\n"
         f"🕒 Bot Uptime       : {uptime}\n"
         "`====================================`\n"
     )
