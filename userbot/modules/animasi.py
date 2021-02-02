@@ -86,7 +86,7 @@ async def typewriter(typew):
         "╬═╬ Hallo Semuanya :) \n"
         "╬═╬☻/ \n"
         "╬═╬/▌ \n"
-        "╬═╬/ \ \n"
+        r"╬═╬/ \ \n"
     )
 
 
@@ -94,7 +94,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
-        "_/﹋\_\n" "(҂`_´)\n" "<,︻╦╤─ ҉\n" r"_/﹋\_" "\n**Mau Jadi Pacarku Gak?!**"
+        r"_/﹋\_\n" "(҂`_´)\n" "<,︻╦╤─ ҉\n" r"_/﹋\_" "\n**Mau Jadi Pacarku Gak?!**"
     )
 
 
