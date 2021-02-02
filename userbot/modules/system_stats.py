@@ -6,7 +6,6 @@
 """ Userbot module for getting information about the server. """
 
 import time
-
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 from os import remove
@@ -24,7 +23,6 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 repo = Repo()
 # ============================================
-
 
 
 async def get_readable_time(seconds: int) -> str:
