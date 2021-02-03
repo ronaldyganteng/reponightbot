@@ -53,3 +53,4 @@ wikipedia
 telegraph
 python-dateutil
 validators
+__help.py 
