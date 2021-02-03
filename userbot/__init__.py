@@ -61,6 +61,10 @@ API_HASH = os.environ.get("API_HASH", None)
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", None)
 
+# Inline bot helper
+BOT_TOKEN = os.environ.get("BOT_TOKEN") or None
+BOT_USERNAME = os.environ.get("BOT_USERNAME") or None
+
 # Logging channel/group ID configuration.
 BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
 
