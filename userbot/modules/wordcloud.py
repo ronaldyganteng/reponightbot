@@ -93,8 +93,5 @@ async def _(event):
 
 
 CMD_HELP.update(
-    {
-        "wordcloud": ">`.wc`\n" "Usage: membuat seni wordcloud dari media\n\n"
-
-    }
+    {"wordcloud": ">`.wc`\n" "Usage: membuat seni wordcloud dari media\n\n"}
 )
