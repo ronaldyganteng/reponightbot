@@ -41,8 +41,6 @@ python-dotenv
 youtube-dl
 youtube-search
 pytz
-scipy
-wordcloud
 qrcode
 requests
 search-engine-parser
@@ -55,3 +53,5 @@ wikipedia
 telegraph
 python-dateutil
 validators
+scipy
+wordcloud
