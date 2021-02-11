@@ -443,7 +443,7 @@ async def typewriter(typew):
 
 CMD_HELP.update(
     {
-        "night": "`.gabut` ; `.dino`\
+        "animasi4": "`.gabut` ; `.dino`\
     \nUsage: ntahlah gabut doang.\
     \n\n`.gombal`\
     \nUsage: buat bercanda\
