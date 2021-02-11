@@ -72,7 +72,9 @@ async def global_ban(event):
     )
     for i in range(len(groups_admin)):
         try:
-            await event.client(EditBannedRequest(groups_admin[i], user.id, BANNED_RIGHTS))
+            await event.client(
+                EditBannedRequest(groups_admin[i], user.id, BANNED_RIGHTS)
+            )
             await asyncio.sleep(0.5)
             count += 1
         except BadRequestError:
@@ -143,7 +145,9 @@ async def unglobal_ban(event):
     )
     for i in range(len(groups_admin)):
         try:
-            await event.client(EditBannedRequest(groups_admin[i], user.id, UNBAN_RIGHTS))
+            await event.client(
+                EditBannedRequest(groups_admin[i], user.id, UNBAN_RIGHTS)
+            )
             await asyncio.sleep(0.5)
             count += 1
         except BadRequestError:
