@@ -1,7 +1,7 @@
 {
-  "name": "NightCore UserBot",
-  "description": "[NightCore] A modular Telegram userbot running on Python 3.8",
-  "logo": "https://telegra.ph/file/d1efe07ce63329308d626.jpg",
+  "name": "Night UserBot",
+  "description": "[Night] A modular Telegram userbot running on Python 3.8",
+  "logo",
   "keywords": [
     "telegram",
     "userbot",
@@ -156,7 +156,7 @@
     {
       "plan": "heroku-postgresql",
       "options": {
-        "version": "12"
+        "version": "13"
       }
     }
   ]
