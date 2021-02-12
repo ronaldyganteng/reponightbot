@@ -163,7 +163,7 @@ async def amireallyalive(alive):
     uptime = await get_readable_time((time.time() - StartTime))
     logo = ALIVE_LOGO
     output = (
-        f"`NightCore` is running on `{repo.active_branch.name}`\n"
+        f"`Night BOT` is running on `{repo.active_branch.name}`\n"
         "`====================================`\n"
         f"👤 User             : {DEFAULTUSER}\n\n"
         f"🐍 Python           : {python_version()}\n\n"
