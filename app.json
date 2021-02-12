@@ -1,7 +1,7 @@
 {
   "name": "Night UserBot",
   "description": "[Night] A modular Telegram userbot running on Python 3.8",
-  "logo",
+  "logo"
   "keywords": [
     "telegram",
     "userbot",
